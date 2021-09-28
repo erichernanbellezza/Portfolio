@@ -113,7 +113,6 @@ header {
 		grid-area: description;
 		background: white;
 		font-size: 0.9rem;
-
 		width: 95%;
 		margin-left: 0.5em;
 		padding-bottom: 1em;
@@ -408,7 +407,7 @@ footer {
 @media screen and (min-width: 1680px) {
 	main {
 		.education {
-			height: 94%;
+			height: 90%;
 		}
 	}
 }
@@ -417,5 +416,10 @@ footer {
 	main {
 		max-width: 40%;
 		margin-left: 30%;
+		.education {
+			h2 {
+				margin-bottom: 1.2em;
+			}
+		}
 	}
 }
